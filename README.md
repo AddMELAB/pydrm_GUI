@@ -1,6 +1,6 @@
 # PYDRM - A graphical user interface for DRM data analysis
 
-This version includes a **grain segmentation panel** which lets the user compute grain statistics by click-and-dragging a region of interest on the canvas. The segmentation algorithm is designed to work without any parameter-tuning. Details about the implementation of the grain segmentation algorithm can be found in [our publication](https://doi.org/10.1016/j.matchar.2021.110978). The number of NMF components for the decomposition and sampling size can be adjusted for optimal results.
+This version includes a grain segmentation functionality which can be triggered by click-and-dragging a region of interest in the canvas. Details about the implementation of the segmentation algorithm can be found in [our publication](https://doi.org/10.1016/j.matchar.2021.110978). The number of NMF components for the decomposition and sampling size can be adjusted for optimal results in the "Grain segmentation" panel.
 
 ![segment_im_demo](https://user-images.githubusercontent.com/39482871/118356204-aa391b80-b5a6-11eb-86be-5a1076f53e31.jpg)
 
